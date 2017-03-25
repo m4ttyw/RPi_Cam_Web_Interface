@@ -37,7 +37,7 @@ set -x
 
 cd $(dirname $(readlink -f $0))
 
-source ./config.txt
+. ./config.txt
 
 fn_stop ()
 { # This is function stop
